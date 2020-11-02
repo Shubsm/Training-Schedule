@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.4rem;
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
