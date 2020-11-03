@@ -15,11 +15,11 @@ import { ApolloProvider } from '@apollo/client'
 
 
 const httpLink = new HttpLink({
-  uri: 'https://training-schedule.hasura.app/v1/graphql'
+  uri: 'https://training-scheduler.hasura.app/v1/graphql'
 });
 
 const wsLink = new WebSocketLink({
-  uri: 'ws://training-schedule.hasura.app/v1/graphql',
+ uri: 'ws://training-scheduler.hasura.app/v1/graphql',
   options:{
     reconnect:true
   }

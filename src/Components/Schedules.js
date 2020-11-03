@@ -22,7 +22,7 @@ import AddIcon from "@material-ui/icons/Add";
 const SCHEDULES = gql`
 
 subscription MyQuery {
-  schedules(order_by: {created_at: desc}) {
+  Schedules(order_by: {created_at: desc}) {
     title
     date
     start_time
@@ -62,7 +62,7 @@ export default function Schedules(){
    
     <div  style={containerStyle}>
     
-    {data.schedules.map(({id,title,date,start_time,end_time})=>(
+    {data.Schedules.map(({id,title,date,start_time,end_time})=>(
     <List>
     
        <ListItem button key = {id} alignItems="flex-start">
