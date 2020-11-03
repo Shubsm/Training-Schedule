@@ -19,7 +19,7 @@ const httpLink = new HttpLink({
 });
 
 const wsLink = new WebSocketLink({
- uri: 'wss://training-scheduler.hasura.app/v1/graphql',
+ uri: 'ws://training-scheduler.hasura.app/v1/graphql',
   options:{
     reconnect:true
   }
