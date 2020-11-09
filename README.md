@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## About
+Training-Scheduler is the react-graphql-hasura based project to show and create schedules.
+
+## 🚧 Technology Stack
+
+- **Server Enviornment** - Graphql
+- **Tool of Server API** - Hasura
+- **Database** - Postgresql
+- **Deployment** - Heroku
+- **Frontend** - React
+
+
+
